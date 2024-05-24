@@ -1,0 +1,64 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url(classroom.jpg);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-top: 20vh;
+}
+
+#firstLine {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subject1, #subject2, #subject3, #subject4, #subject5 {
+    background-color: rgb(223, 223, 107);
+}
+
+#studentName {
+    background-color: rgb(177, 90, 90);
+}
+
+#average {
+    background-color: green;
+}
+
+#average1, #average2, #average3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(163, 5, 5);
+    background-color: rgb(255, 196, 0);
+} 
+
+#name1, #name2, #name3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+}
